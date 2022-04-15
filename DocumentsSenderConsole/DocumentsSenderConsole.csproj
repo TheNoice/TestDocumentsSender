@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DocumentsSender.Common\DocumentsSender.Common.csproj" />
+    <ProjectReference Include="..\DocumentsSender.Core\DocumentsSender.Core.csproj" />
+  </ItemGroup>
+
+</Project>
