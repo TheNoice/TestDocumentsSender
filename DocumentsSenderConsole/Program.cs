@@ -18,6 +18,7 @@ namespace DocumentsSenderConsole
         static void Main(string[] args)
         {
             //test_change
+            //test_change_2
 
             List<DocumentsQueueBasicService> servicesList = new();
 
