@@ -17,9 +17,6 @@ namespace DocumentsSenderConsole
         /// <param name="args"></param>
         static void Main(string[] args)
         {
-            //test_change
-            //test_change_2
-
             List<DocumentsQueueBasicService> servicesList = new();
 
             for (int i = 0; i < 10; i++)
