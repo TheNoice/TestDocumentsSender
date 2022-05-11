@@ -17,6 +17,10 @@ namespace DocumentsSenderConsole
         /// <param name="args"></param>
         static void Main(string[] args)
         {
+            int a = 1;
+
+            Console.WriteLine(a);
+
             List<DocumentsQueueBasicService> servicesList = new();
 
             for (int i = 0; i < 10; i++)
